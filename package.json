@@ -1,0 +1,36 @@
+{
+  "name": "@robertoachar/calculator",
+  "version": "1.1.0",
+  "description": "Calculator.",
+  "author": "Roberto Achar <robertoachar@gmail.com>",
+  "homepage": "https://github.com/robertoachar/calculator#readme",
+  "keywords": [
+    "node"
+  ],
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "coverage": "jest --colors --coverage",
+    "lint": "eslint src/**/*.js",
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertoachar/calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertoachar/calculator/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "4.19.1",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-prettier": "2.6.0",
+    "jest": "22.4.3",
+    "prettier": "1.12.1"
+  },
+  "license": "MIT"
+}
